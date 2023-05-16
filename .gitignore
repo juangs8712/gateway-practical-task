@@ -1,0 +1,9 @@
+node_modules/
+
+mongo/
+
+.env
+
+uploads/
+
+dist/
