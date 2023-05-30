@@ -33,7 +33,8 @@
     2. Request method: GET
     3. Input body: Empty
     4. Output body:
-        ```{
+        ```
+       {
         "total": 12,
         "gateways": [
                 {
@@ -57,7 +58,8 @@
     2. Request method: GET
     3. Input body: Empty
     4. Output body
-        ```{
+        ```
+        {
             "gateway": {
                 "_id": "645fad3a93aa2815004bb74b",
                 "name": "Gateway 1",
@@ -71,33 +73,37 @@
     1. URL: {{url}}/api/gateway
     2. Request method: POST
     3. Input body:
-        ``` {
+        ``` 
+        {
             "name": "Gateway 13",
             "ipv4": "192.169.1.12"
         }  
         ```
     4. Output body
-    ``` {
-            "gateway": {
-                "_id": "6462b56e965cc362541d0be3",
-                "name": "Gateway 13",
-                "ipv4": "192.169.1.13",
-                "state": true
-            }
-        }
+    ``` 
+    {
+         "gateway": {
+             "_id": "6462b56e965cc362541d0be3",
+             "name": "Gateway 13",
+             "ipv4": "192.169.1.13",
+             "state": true
+         }
+     }
     ```
     ---
     * #### Update a gateway
     1. URL: {{url}}/api/gateway/6462b56e965cc362541d0be3
     2. Request method: PUT
     3. Input body:
-        ``` {
+        ``` 
+        {
             "name" : "Name Gateway 13 Updated",
             "ipv4" : "192.169.1.1"
         } 
         ```
     4. Output body
-    ``` {
+    ``` 
+    {
             "gateway": {
                 "_id": "6462b56e965cc362541d0be3",
                 "name": "Name gateway 13 updated",
@@ -112,7 +118,8 @@
     2. Request method: DELETE
     3. Input body:  Empty
     4. Output body
-    ``` {
+    ``` 
+    {
             "gateway": {
                 "_id": "6462b56e965cc362541d0be3",
                 "name": "Name gateway 13 updated",
